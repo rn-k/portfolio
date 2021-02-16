@@ -15,10 +15,11 @@
 <body id="contact">
 <!--header始まり-->
   <header>
+    <div class="header_area">
       <div class="header_logo">
         <a href="index.html"><img src="icon/title_logo.png" alt="Ryuichi Nishioka Profilepage"></a>
       </div>
-      <nav>
+      <nav id="nav">
         <ul class="global-nav">
           <li><a href="index.html#consept">CONSEPT</a></li>
           <li><a href="index.html#profile">PROFILE</a></li>
@@ -27,6 +28,7 @@
           <li><a href="contact.html">CONTACT</a></li>
         </ul>  
       </nav>
+    </div>
   </header>
 <!--header終わり-->
 
@@ -40,11 +42,11 @@
             <!-- 名前 -->
             <tr>
               <th>お名前</th>
-              <td><input type="text" name="name" class="name" placeholder="例）西岡　龍一" required></td>
+              <td><input type="text" name="name" class="name" placeholder="例）〇〇　〇〇" required></td>
             </tr>
             <tr>
               <th>お名前(フリガナ)</th>
-              <td><input type="text" name="name" class="name_red" placeholder="例）ニシオカ　リュウイチ" required></td>
+              <td><input type="text" name="name" class="name_red"  required></td>
             </tr>
             <!-- メールアドレス -->
             <tr>
@@ -92,7 +94,27 @@
 <!--wrap終わり-->
 <!--footer始まり-->
   <footer>
-    <p><small>(C)2021 Ryuichi_Nishioka.</small></p>
+    <div class="element">
+      <h1>SNS</h1>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/">
+            <p>Instagram</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://note.com">
+            <p>note</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/">
+            <p>twitter</p>
+          </a>
+        </li>
+      </ul>
+      <p class="footer_name"><small>(C)2021 Ryuichi_Nishioka.</small></p>
+    </div>
   </footer>
 <!--footer終わり-->
 </body>
